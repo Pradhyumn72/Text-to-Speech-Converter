@@ -63,4 +63,34 @@ button{
     border: 0;
     outline: 0;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+
+.select{
+    flex: 1;
+    color:black;
+    background:yellow;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(./dropdown-arrow.png);
+    background-repeat: no-repeat;
+    background-size:30px;
+    background-position: right;
+    background-origin: content-box;
+   
+    
+    
+
 }
